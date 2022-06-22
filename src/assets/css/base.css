@@ -1,0 +1,77 @@
+html,
+body,
+#app {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  /* 控制横向上的最小宽度 */
+  /* min-width: 1400px; */
+  background-color: #fafafa;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.uldisplay {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  align-items: flex-start;
+}
+
+.uldisplay1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0px;
+  line-height: 0px;
+  visibility: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+p,
+h2,
+h4 {
+  margin: 0;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.el-container{
+    height: 100%;
+}
+
+.title{
+  text-align: justify;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.tltle1{
+  text-align: justify;
+}
